@@ -5,8 +5,7 @@ from bs4 import BeautifulSoup
 
 # URL of the webpage to scrape
 #url = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
-#url = 'https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7_%D9%88_%D9%82%D9%84%D9%85%D8%B1%D9%88%D9%87%D8%A7%DB%8C_%DA%A9%D8%A7%D9%86%D8%A7%D8%AF%D8%A7'
-url = 'https://en.wikipedia.org/wiki/Web_scraping'
+
 # Send a GET request to fetch the webpage content
 response = requests.get(url)
 
